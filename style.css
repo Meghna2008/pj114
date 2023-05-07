@@ -1,0 +1,30 @@
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.btn-info:hover{
+    background-color: rgb(193, 50, 206);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(52, 0, 94);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+canvas{
+   
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from {box-shadow: 2px 2px 34px rgb(248, 79, 248);}
+    to {box-shadow: 2px 2px 34px rgb(118, 6, 146);}
+}
